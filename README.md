@@ -42,29 +42,6 @@ guide-learning/
 Use $guide-learning to help me learn a new topic.
 ```
 
-## 添加新的 skill
-
-新增 skill 时，请放在 `skills/` 目录下，并保持一个 skill 一个目录：
-
-```text
-skills/
-  guide-learning/
-    SKILL.md
-  another-skill/
-    SKILL.md
-```
-
-每个 `SKILL.md` 应该包含清晰的 YAML frontmatter：
-
-```yaml
----
-name: skill-name
-description: "说明这个 skill 做什么，以及什么时候应该使用。"
----
-```
-
-保持 skill 精简，只放真正帮助 agent 完成任务的说明和资源。不要在每个 skill 目录里堆额外的 README、安装指南或变更日志。
-
 ## 许可证
 
 本仓库使用 MIT License。详见 [LICENSE](./LICENSE)。
