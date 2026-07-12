@@ -1,4 +1,0 @@
-interface:
-  display_name: "学习陪练"
-  short_description: "用学习地图、练习、提问和验证帮助用户真正掌握新知识与技能"
-  default_prompt: "Use $guide-learning to help me build a learning path and practice a new topic."
