@@ -63,27 +63,15 @@
 ```text
 guide-learning/
   SKILL.md
-  agents/
-    openai.yaml
 
 guide-decisions/
   SKILL.md
-  agents/
-    openai.yaml
 
 guide-execution/
   SKILL.md
-  agents/
-    openai.yaml
 ```
 
-然后在对话中自然提出学习、决策或执行需求，或显式调用：
-
-```text
-Use $guide-learning to help me learn a new topic.
-Use $guide-decisions to help me compare options and make a decision.
-Use $guide-execution to guide me through a technical task one step at a time.
-```
+然后在对话中自然提出学习、决策或执行需求。
 
 ## 许可证
 
