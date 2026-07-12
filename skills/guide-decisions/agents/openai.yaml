@@ -1,0 +1,4 @@
+interface:
+  display_name: "决策协作"
+  short_description: "澄清约束与假设、比较方案取舍，帮助用户作出可解释且可复盘的决定"
+  default_prompt: "Use $guide-decisions to help me compare options and make a well-reasoned decision."
