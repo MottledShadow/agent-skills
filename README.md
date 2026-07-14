@@ -87,14 +87,7 @@ natural-reproduction-learning/
   SKILL.md
 ```
 
-然后在对话中自然提出学习、决策、执行或协作学习需求，或显式调用：
-
-```text
-Use $guide-learning to help me learn a new topic.
-Use $guide-decisions to help me compare options and make a decision.
-Use $guide-execution to guide me through a technical task one step at a time.
-Use $natural-reproduction-learning to help me learn through real technical work.
-```
+然后在对话中自然提出学习、决策、执行或协作学习需求。
 
 ## 许可证
 
