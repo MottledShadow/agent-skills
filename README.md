@@ -6,13 +6,13 @@
 
 | Skill | 简介 |
 | --- | --- |
-| [`guide-learning`](./skills/guide-learning/SKILL.md) | 面向概念体系、原理和通用技能，引导学习地图、练习、苏格拉底提问、费曼验证和复习总结。 |
+| [`guide-structured-learning`](./skills/guide-structured-learning/SKILL.md) | 面向概念体系、原理和通用技能，引导学习地图、练习、苏格拉底提问、费曼验证和复习总结。 |
 | [`guide-decisions`](./skills/guide-decisions/SKILL.md) | 澄清决策、识别约束与假设、比较方案取舍、给出建议并形成决策记录。 |
-| [`guide-practical-learning`](./skills/guide-practical-learning/SKILL.md) | 在真实技术任务中按经验切换首次地图、引导执行和自然复现，通过反馈闭环逐渐把推进权还给用户。 |
+| [`guide-hands-on-learning`](./skills/guide-hands-on-learning/SKILL.md) | 在真实技术任务中按经验切换首次地图、引导执行和自然复现，通过反馈闭环逐渐把推进权还给用户。 |
 
-## guide-learning
+## guide-structured-learning
 
-`guide-learning` 是一个知识建构型学习陪练 skill。它适合用户系统学习数学、理论知识、概念体系或课程式通用技能时使用，让 AI 扮演学习陪练，而不是代劳者。
+`guide-structured-learning` 是一个知识建构型学习陪练 skill。它适合用户系统学习数学、理论知识、概念体系或课程式通用技能时使用，让 AI 扮演学习陪练，而不是代劳者。
 
 它的核心工作流是：
 
@@ -36,9 +36,9 @@
 5. 给出明确推荐、成立条件和可能的翻转点。
 6. 设计验证动作，必要时输出 Markdown 决策记录。
 
-## guide-practical-learning
+## guide-hands-on-learning
 
-`guide-practical-learning` 是一个真实任务型学习 skill。它适合用户亲自完成配置、部署、调试、排障、迁移或维护，并希望逐渐掌握通用流程和关键判断时使用。
+`guide-hands-on-learning` 是一个真实任务型学习 skill。它适合用户亲自完成配置、部署、调试、排障、迁移或维护，并希望逐渐掌握通用流程和关键判断时使用。
 
 它的核心工作流是：
 
@@ -51,26 +51,26 @@
 7. 高风险或根本路线错误时停止推进，保全状态并回退到相应决策点。
 8. 完成阶段时总结已确认状态、形成的关键判断和剩余风险，不自动扩展任务。
 
-三个 skill 按任务性质区分：想系统地**理解和掌握概念体系**时使用 `guide-learning`，需要在多个可行方向中**作出选择**时使用 `guide-decisions`，希望在真实环境中**亲自做成并逐渐学会推进**时使用 `guide-practical-learning`。后者再根据用户经验选择首次地图、引导执行或自然复现模式。
+三个 skill 按任务性质区分：想系统地**理解和掌握概念体系**时使用 `guide-structured-learning`，需要在多个可行方向中**作出选择**时使用 `guide-decisions`，希望在真实环境中**亲自做成并逐渐学会推进**时使用 `guide-hands-on-learning`。后者再根据用户经验选择首次地图、引导执行或自然复现模式。
 
 ## 使用方式
 
 把需要使用的 skill 目录复制到你的 Codex skills 目录中，例如：
 
 ```text
-~/.codex/skills/guide-learning/
+~/.codex/skills/guide-structured-learning/
 ```
 
 复制后目录应包含：
 
 ```text
-guide-learning/
+guide-structured-learning/
   SKILL.md
 
 guide-decisions/
   SKILL.md
 
-guide-practical-learning/
+guide-hands-on-learning/
   SKILL.md
 ```
 
