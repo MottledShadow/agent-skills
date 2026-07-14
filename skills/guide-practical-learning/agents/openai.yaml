@@ -1,4 +1,0 @@
-interface:
-  display_name: "Guide Practical Learning"
-  short_description: "Guide real technical work and transferable learning"
-  default_prompt: "Use $guide-practical-learning to guide me through a real technical task while helping me retain transferable understanding."
